@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>VORTEX ENGINE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loading">VORTEX ENGINE<br><small>STORM CHASING SIMULATOR</small></div>
+
+<header>
+  <div class="logo">VORTEX <span>ENGINE</span></div>
+  <div class="status">● LIVE WEATHER</div>
+</header>
+
+<div id="hud">
+  <div class="panel">
+    <small>WIND SPEED</small>
+    <strong id="wind">0 km/h</strong>
+  </div>
+  <div class="panel">
+    <small>VEHICLE SPEED</small>
+    <strong id="speed">0 km/h</strong>
+  </div>
+  <div class="panel">
+    <small>TORNADO RATING</small>
+    <strong id="rating">EF0</strong>
+  </div>
+</div>
+
+<canvas id="game"></canvas>
+
+<div id="vehicleName">DODGE RAM - STORM CHASER</div>
+
+<div id="controls">
+  <div class="steering">
+    <button id="left">◀</button>
+    <button id="right">▶</button>
+  </div>
+  <div class="pedals">
+    <button id="brake">▼</button>
+    <button id="accelerate">▲</button>
+  </div>
+</div>
+
+<div id="bottom">
+  VORTEX ENGINE v0.1 | SIMULATION MODE
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
